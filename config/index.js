@@ -25,7 +25,7 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
@@ -63,11 +63,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '麦麦宝宝',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'uCiEbk1Bo-Kle0ioc22NJxf4H_T923F2mqMjhx9YwH0',
       // 所在省份
       province: '黑龙江',
       // 所在城市
@@ -171,11 +171,11 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
+      name: '麦麦宝宝',
+      id: 'otnVg6YVnwpOW_qxoXKF3vV0Lhxc',
+      useTemplateId: 'uCiEbk1Bo-Kle0ioc22NJxf4H_T923F2mqMjhx9YwH0',
+      province: '黑龙江',
+      city: '佳木斯',
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
@@ -239,9 +239,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '黑龙江',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '佳木斯',
 
   /** 重要节日相关 */
 
